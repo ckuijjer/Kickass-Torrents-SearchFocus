@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Kickass Torrents SearchFocus",
+  "description": "Sets the focus to the search field on kickass torrents",
+  "version": "1.0",
+  "content_scripts": [
+      {
+          "matches": [ "http://kat.ph/", "https://kat.ph/", "http://kickass.to/", "https://kickass.to/" ],
+          "js": [ "content.js" ]
+      }
+  ]
+}
